@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		444EFBA72F27262100AC4DFC /* AdminUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444EFBA62F27262100AC4DFC /* AdminUpdateView.swift */; };
+		444EFBA92F2748EE00AC4DFC /* AdminPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444EFBA82F2748EE00AC4DFC /* AdminPinView.swift */; };
+		44B57D2B2F266C7000433273 /* SpotScoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B57D2A2F266C7000433273 /* SpotScoutApp.swift */; };
+		44B57D2D2F266C7000433273 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B57D2C2F266C7000433273 /* ContentView.swift */; };
+		44B57D2F2F266C7300433273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B57D2E2F266C7300433273 /* Assets.xcassets */; };
+		44B57D322F266C7300433273 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B57D312F266C7300433273 /* Preview Assets.xcassets */; };
+		44B57D3C2F266C7400433273 /* SpotScoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B57D3B2F266C7400433273 /* SpotScoutTests.swift */; };
+		44B57D462F266C7400433273 /* SpotScoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B57D452F266C7400433273 /* SpotScoutUITests.swift */; };
+		44B57D482F266C7400433273 /* SpotScoutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B57D472F266C7400433273 /* SpotScoutUITestsLaunchTests.swift */; };
+		44B57D552F266D7700433273 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B57D542F266D7700433273 /* Library.swift */; };
+		44B57D572F266DC100433273 /* CampusMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B57D562F266DC100433273 /* CampusMapView.swift */; };
+		44B57D592F266DE600433273 /* StudentBookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B57D582F266DE600433273 /* StudentBookingView.swift */; };
+		44B57D5B2F2672A300433273 /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B57D5A2F2672A300433273 /* StatCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44B57D382F266C7400433273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44B57D1F2F266C7000433273 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44B57D262F266C7000433273;
+			remoteInfo = SpotScout;
+		};
+		44B57D422F266C7400433273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44B57D1F2F266C7000433273 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44B57D262F266C7000433273;
+			remoteInfo = SpotScout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		444EFBA62F27262100AC4DFC /* AdminUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminUpdateView.swift; sourceTree = "<group>"; };
+		444EFBA82F2748EE00AC4DFC /* AdminPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminPinView.swift; sourceTree = "<group>"; };
+		444EFBAA2F27557C00AC4DFC /* SpotScout.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpotScout.entitlements; sourceTree = "<group>"; };
+		44B57D272F266C7000433273 /* SpotScout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotScout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B57D2A2F266C7000433273 /* SpotScoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotScoutApp.swift; sourceTree = "<group>"; };
+		44B57D2C2F266C7000433273 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		44B57D2E2F266C7300433273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44B57D312F266C7300433273 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44B57D372F266C7400433273 /* SpotScoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotScoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B57D3B2F266C7400433273 /* SpotScoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotScoutTests.swift; sourceTree = "<group>"; };
+		44B57D412F266C7400433273 /* SpotScoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotScoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B57D452F266C7400433273 /* SpotScoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotScoutUITests.swift; sourceTree = "<group>"; };
+		44B57D472F266C7400433273 /* SpotScoutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotScoutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44B57D542F266D7700433273 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		44B57D562F266DC100433273 /* CampusMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusMapView.swift; sourceTree = "<group>"; };
+		44B57D582F266DE600433273 /* StudentBookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentBookingView.swift; sourceTree = "<group>"; };
+		44B57D5A2F2672A300433273 /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44B57D242F266C7000433273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B57D342F266C7400433273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B57D3E2F266C7400433273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44B57D1E2F266C7000433273 = {
+			isa = PBXGroup;
+			children = (
+				44B57D292F266C7000433273 /* SpotScout */,
+				44B57D3A2F266C7400433273 /* SpotScoutTests */,
+				44B57D442F266C7400433273 /* SpotScoutUITests */,
+				44B57D282F266C7000433273 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44B57D282F266C7000433273 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44B57D272F266C7000433273 /* SpotScout.app */,
+				44B57D372F266C7400433273 /* SpotScoutTests.xctest */,
+				44B57D412F266C7400433273 /* SpotScoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44B57D292F266C7000433273 /* SpotScout */ = {
+			isa = PBXGroup;
+			children = (
+				444EFBAA2F27557C00AC4DFC /* SpotScout.entitlements */,
+				44B57D2A2F266C7000433273 /* SpotScoutApp.swift */,
+				44B57D2C2F266C7000433273 /* ContentView.swift */,
+				44B57D2E2F266C7300433273 /* Assets.xcassets */,
+				44B57D302F266C7300433273 /* Preview Content */,
+				44B57D542F266D7700433273 /* Library.swift */,
+				44B57D562F266DC100433273 /* CampusMapView.swift */,
+				44B57D582F266DE600433273 /* StudentBookingView.swift */,
+				44B57D5A2F2672A300433273 /* StatCard.swift */,
+				444EFBA62F27262100AC4DFC /* AdminUpdateView.swift */,
+				444EFBA82F2748EE00AC4DFC /* AdminPinView.swift */,
+			);
+			path = SpotScout;
+			sourceTree = "<group>";
+		};
+		44B57D302F266C7300433273 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				44B57D312F266C7300433273 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44B57D3A2F266C7400433273 /* SpotScoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				44B57D3B2F266C7400433273 /* SpotScoutTests.swift */,
+			);
+			path = SpotScoutTests;
+			sourceTree = "<group>";
+		};
+		44B57D442F266C7400433273 /* SpotScoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44B57D452F266C7400433273 /* SpotScoutUITests.swift */,
+				44B57D472F266C7400433273 /* SpotScoutUITestsLaunchTests.swift */,
+			);
+			path = SpotScoutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44B57D262F266C7000433273 /* SpotScout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44B57D4B2F266C7400433273 /* Build configuration list for PBXNativeTarget "SpotScout" */;
+			buildPhases = (
+				44B57D232F266C7000433273 /* Sources */,
+				44B57D242F266C7000433273 /* Frameworks */,
+				44B57D252F266C7000433273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotScout;
+			productName = SpotScout;
+			productReference = 44B57D272F266C7000433273 /* SpotScout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44B57D362F266C7400433273 /* SpotScoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44B57D4E2F266C7400433273 /* Build configuration list for PBXNativeTarget "SpotScoutTests" */;
+			buildPhases = (
+				44B57D332F266C7400433273 /* Sources */,
+				44B57D342F266C7400433273 /* Frameworks */,
+				44B57D352F266C7400433273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44B57D392F266C7400433273 /* PBXTargetDependency */,
+			);
+			name = SpotScoutTests;
+			productName = SpotScoutTests;
+			productReference = 44B57D372F266C7400433273 /* SpotScoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44B57D402F266C7400433273 /* SpotScoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44B57D512F266C7400433273 /* Build configuration list for PBXNativeTarget "SpotScoutUITests" */;
+			buildPhases = (
+				44B57D3D2F266C7400433273 /* Sources */,
+				44B57D3E2F266C7400433273 /* Frameworks */,
+				44B57D3F2F266C7400433273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44B57D432F266C7400433273 /* PBXTargetDependency */,
+			);
+			name = SpotScoutUITests;
+			productName = SpotScoutUITests;
+			productReference = 44B57D412F266C7400433273 /* SpotScoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44B57D1F2F266C7000433273 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					44B57D262F266C7000433273 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					44B57D362F266C7400433273 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 44B57D262F266C7000433273;
+					};
+					44B57D402F266C7400433273 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 44B57D262F266C7000433273;
+					};
+				};
+			};
+			buildConfigurationList = 44B57D222F266C7000433273 /* Build configuration list for PBXProject "SpotScout" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44B57D1E2F266C7000433273;
+			productRefGroup = 44B57D282F266C7000433273 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44B57D262F266C7000433273 /* SpotScout */,
+				44B57D362F266C7400433273 /* SpotScoutTests */,
+				44B57D402F266C7400433273 /* SpotScoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44B57D252F266C7000433273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B57D322F266C7300433273 /* Preview Assets.xcassets in Resources */,
+				44B57D2F2F266C7300433273 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B57D352F266C7400433273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B57D3F2F266C7400433273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44B57D232F266C7000433273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				444EFBA92F2748EE00AC4DFC /* AdminPinView.swift in Sources */,
+				44B57D572F266DC100433273 /* CampusMapView.swift in Sources */,
+				44B57D592F266DE600433273 /* StudentBookingView.swift in Sources */,
+				44B57D2D2F266C7000433273 /* ContentView.swift in Sources */,
+				44B57D5B2F2672A300433273 /* StatCard.swift in Sources */,
+				444EFBA72F27262100AC4DFC /* AdminUpdateView.swift in Sources */,
+				44B57D2B2F266C7000433273 /* SpotScoutApp.swift in Sources */,
+				44B57D552F266D7700433273 /* Library.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B57D332F266C7400433273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B57D3C2F266C7400433273 /* SpotScoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B57D3D2F266C7400433273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B57D462F266C7400433273 /* SpotScoutUITests.swift in Sources */,
+				44B57D482F266C7400433273 /* SpotScoutUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44B57D392F266C7400433273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44B57D262F266C7000433273 /* SpotScout */;
+			targetProxy = 44B57D382F266C7400433273 /* PBXContainerItemProxy */;
+		};
+		44B57D432F266C7400433273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44B57D262F266C7000433273 /* SpotScout */;
+			targetProxy = 44B57D422F266C7400433273 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		44B57D492F266C7400433273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44B57D4A2F266C7400433273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44B57D4C2F266C7400433273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpotScout/SpotScout.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpotScout/Preview Content\"";
+				DEVELOPMENT_TEAM = P5329H8HR5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anubhav.SpotScout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44B57D4D2F266C7400433273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpotScout/SpotScout.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpotScout/Preview Content\"";
+				DEVELOPMENT_TEAM = P5329H8HR5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anubhav.SpotScout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44B57D4F2F266C7400433273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anubhav.SpotScoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotScout.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpotScout";
+			};
+			name = Debug;
+		};
+		44B57D502F266C7400433273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anubhav.SpotScoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotScout.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpotScout";
+			};
+			name = Release;
+		};
+		44B57D522F266C7400433273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anubhav.SpotScoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpotScout;
+			};
+			name = Debug;
+		};
+		44B57D532F266C7400433273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anubhav.SpotScoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpotScout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44B57D222F266C7000433273 /* Build configuration list for PBXProject "SpotScout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B57D492F266C7400433273 /* Debug */,
+				44B57D4A2F266C7400433273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44B57D4B2F266C7400433273 /* Build configuration list for PBXNativeTarget "SpotScout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B57D4C2F266C7400433273 /* Debug */,
+				44B57D4D2F266C7400433273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44B57D4E2F266C7400433273 /* Build configuration list for PBXNativeTarget "SpotScoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B57D4F2F266C7400433273 /* Debug */,
+				44B57D502F266C7400433273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44B57D512F266C7400433273 /* Build configuration list for PBXNativeTarget "SpotScoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B57D522F266C7400433273 /* Debug */,
+				44B57D532F266C7400433273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44B57D1F2F266C7000433273 /* Project object */;
+}
